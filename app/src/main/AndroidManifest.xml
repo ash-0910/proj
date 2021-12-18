@@ -10,15 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
-            android:name=".CoursesPage"
+            android:name=".register"
             android:exported="false" />
         <activity
-            android:name=".Home_Page"
-            android:exported="false"
-            android:label="@string/title_activity_home_page"
-            android:theme="@style/Theme.FinalProject.NoActionBar" />
+            android:name=".Profile_Page"
+            android:exported="false" />
         <activity
-            android:name=".MainPage"
+            android:name=".Course_Details"
+            android:exported="false" />
+
+        <activity
+            android:name=".RemoveCourses"
+            android:exported="false" />
+        <activity
+            android:name=".CoursesPage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

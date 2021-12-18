@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Courses"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="@string/title_courses" />
+
+    <item
+        android:id="@+id/navigation_Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_profile" />
+
+</menu>
